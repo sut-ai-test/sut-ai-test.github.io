@@ -1,0 +1,1432 @@
+title: SUT-AI | Problem Sets
+search:
+  links: true
+  content: true
+header:
+  title: <p>Problem Sets</p>
+  description: <p>Sets of Artificial Intelligence problems</p>
+  background: /assets/images/assignments.jpg
+footer:
+  background: /assets/images/assignments.jpg
+current-semester-ce417:
+  label:
+    positon: top
+    text: CE-417 | Current Semester
+  background: /assets/images/assignments.jpg
+  title: <p>CE417 - Fall 2022 - Prof. Rohban</p>
+  content: "<p>One of CE-417's goals is to prepare you to apply fundamental Artificial\
+    \ Intelligence and \nMachine Learning algorithms to semi-realistic tasks and ensure\
+    \ that you have a solid \nunderstanding of the fundamentals of AI. The extensive\
+    \ problem sets of the course are \ncurated to serve as a means for achieving this\
+    \ purpose.\nPlease upload your answers to Quera on time; otherwise you would not\
+    \ earn any \ncredit for them. Take a note of these points regarding your assignments:\n\
+    * You will have <strong>6 Assignments</strong> Accounting for 50% of your overall\
+    \ grading\n* You are given <strong>15 \u201Cgrace days\u201D</strong> (self-granted\
+    \ extensions) in total for each assignment,\n  which you can use to give yourself\
+    \ extra time without penalty.\n* Every assignment has a hard deadline \u2014 which\
+    \ is <strong>7</strong> days after the original due date (except for the last\
+    \ assignment \n  which has no delay)\u2014 after which no submission is accepted.\
+    \ \n* Delays are calculated hourly; minutes and seconds are rounded up.\n* You\
+    \ can choose how you wish to distribute your grace-days among your assignments\
+    \ at the\n  end of the semester.\nIf you have any questions regarding the problems,\
+    \ visit the appropriate forum in Quera. \nKeep in mind that no changes can be\
+    \ made to assignments at the last minute; therefore, please \nhave a look at the\
+    \ questions at least a week before the assignment's due date. No deadline will\
+    \ \nbe extended, and it is entirely on you to manage your \ntime and use your\
+    \ grace days accordingly. Finally, a word of advice, don't procrastinate \neverything\
+    \ up until the deadlines.</p>"
+  exam:
+    label:
+      text: Exams
+      position: top
+    quiz:
+      label: Quiz
+      content:
+      - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2023/exams/Quiz1.pdf
+        text: Quiz 1
+        description: <p>Quiz 1 exam of S2023 course.</p>
+        kind: S2023, Theoretical, Exam, Quiz, Questions
+        icon: fas fa-file-pdf
+      - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2023/exams/Quiz2.pdf
+        text: Quiz 2
+        description: <p>Quiz 2 exam of S2023 course.</p>
+        kind: S2023, Theoretical, Exam, Quiz, Questions
+        icon: fas fa-file-pdf
+      - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2023/exams/Quiz2-Solution.pdf
+        text: Quiz 2 [sol]
+        description: <p>Solution for S2023 quiz2 exam.</p>
+        kind: S2023, Theoretical, Exam, Quiz, Questions
+        icon: fas fa-file-pdf
+    midterm:
+      label: Midterm
+      content:
+      - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2023/exams/Midterm.pdf
+        text: Midterm
+        description: <p>Midterm exam of S2023 course covering up to Markov Decision
+          Processes and Reinforcement Learning.</p>
+        kind: S2023, Theoretical, Exam, Midterm, Questions
+        icon: fas fa-file-pdf
+      - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2023/exams/Midterm-Solution.pdf
+        text: Midterm [sol]
+        description: <p>Solutions for S2023 midterm exam.</p>
+        kind: S2023, Theoretical, Solutions, Exam, Midterm
+        icon: far fa-file-pdf
+    final:
+      label: Final
+      content:
+      - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2023/exams/Final.pdf
+        text: Final
+        description: <p>Final exam of S2023 course covering from Bayesian Networks
+          up to the end of the course syllabus.</p>
+        kind: S2023, Theoretical, Exam, Final, Questions
+        icon: fas fa-file-pdf
+      - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2023/exams/Final-Solution.pdf
+        text: Final [sol]
+        description: <p>Solutions for S2023 final exam.</p>
+        kind: S2023, Theoretical, Solutions, Exam, Final
+        icon: far fa-file-pdf
+  theoretical:
+    label:
+      text: Assignments
+      position: top
+    a1:
+      label: Assignment 1 - Search
+      content:
+      - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2023/assignments/A1/HW1.zip
+        text: Intelligent Agents, Informed Search, Local Search, Continues Optimization
+        description: <p>Includes 2 practical and 5 theoretical questions covering
+          the first chapter of the course syllabus (Intelligent Agents, Informed Search,
+          Local Search, Continues Optimization), released in Spring 2023.</p>
+        kind: S2023, Practical, Theoretical, Questions
+        icon: fas fa-file-archive
+      - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2023/assignments/A1/HW1-Solution.zip
+        text: Intelligent Agents, Informed Search, Local Search, Continues Optimization
+          [sol]
+        description: <p>Includes solution for 2 practical and 5 theoretical questions
+          covering the first chapter of the course syllabus (Intelligent Agents, Informed
+          Search, Local Search, Continues Optimization), released in Spring 2023.</p>
+        kind: S2023, Practical, Theoretical, Solutions
+        icon: far fa-file-archive
+    a2:
+      label: Assignment 2 - Adversarial Search and CSP
+      content:
+      - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2023/assignments/A2/HW2.zip
+        text: Adversarial Search and CSP
+        description: <p>Includes 2 practical and 5 theoretical questions covering
+          the second chapter of the course syllabus (Adversarial Search and CSP),
+          released in Spring 2023.</p>
+        kind: S2023, Practical, Theoretical, Questions
+        icon: fas fa-file-archive
+      - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2023/assignments/A2/HW2-Solution.zip
+        text: Adversarial Search and CSP [sol]
+        description: <p>Includes solution for 2 practical and 5 theoretical questions
+          covering the second chapter of the course syllabus (Adversarial Search and
+          CSP), released in Spring 2023.</p>
+        kind: S2023, Practical, Theoretical, Solutions
+        icon: far fa-file-archive
+    a3:
+      label: Assignment 3 - Markov Decision Processes and Reinforcement Learning
+      content:
+      - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2023/assignments/A3/HW3.zip
+        text: Markov Decision Processes and Reinforcement Learning
+        description: <p>Includes 2 practical and 5 theoretical questions covering
+          the third chapter of the course syllabus (Markov Decision Processes and
+          Reinforcement Learning), released in Spring 2023.</p>
+        kind: S2023, Practical, Theoretical, Questions
+        icon: fas fa-file-archive
+      - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2023/assignments/A3/HW3-Solution.zip
+        text: Markov Decision Processes and Reinforcement Learning [sol]
+        description: <p>Includes solution for 2 practical and 5 theoretical questions
+          covering the third chapter of the course syllabus (Markov Decision Processes
+          and Reinforcement Learning), released in Spring 2023.</p>
+        kind: S2023, Practical, Theoretical, Solutions
+        icon: far fa-file-archive
+    a4:
+      label: Assignment 4 - Bayesian Networks and Temporal Probability Models
+      content:
+      - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2023/assignments/A4/HW4.zip
+        text: Bayesian Networks and Temporal Probability Models
+        description: <p>Includes 1 practical and 5 theoretical questions covering
+          the fourth chapter of the course syllabus (Bayesian Networks and Temporal
+          Probability Models), released in Spring 2023.</p>
+        kind: S2023, Practical, Theoretical, Questions
+        icon: fas fa-file-archive
+      - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2023/assignments/A4/HW4-Solution.zip
+        text: Bayesian Networks and Temporal Probability Models [sol]
+        description: <p>Includes solution for 5 theoretical and one practical questions
+          covering the fourth chapter of the course syllabus (Bayesian Networks and
+          Temporal Probability Models), released in Spring 2023.</p>
+        kind: S2023, Practical, Theoretical, Solutions
+        icon: far fa-file-archive
+    a5:
+      label: Assignment 5 - Introduction to Machine Learning, Decision Tree, Regression
+      content:
+      - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2023/assignments/A5/HW5.zip
+        text: Introduction to Machine Learning, Decision Tree, Regression
+        description: <p>Includes 2 practical and 4 theoretical questions covering
+          the fifth chapter of the course syllabus (Introduction to Machine Learning,
+          Decision Tree, Regression), released in Spring 2023.</p>
+        kind: S2023, Practical, Theoretical, Questions
+        icon: fas fa-file-archive
+      - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2023/assignments/A5/HW5-Solution.zip
+        text: Introduction to Machine Learning, Decision Tree, Regression [sol]
+        description: <p>Includes solution for 4 theoretical and 2 practical questions
+          covering the fifth chapter of the course syllabus (Introduction to Machine
+          Learning, Decision Tree, Regression), released in Spring 2023.</p>
+        kind: S2023, Practical, Theoretical, Solutions
+        icon: far fa-file-archive
+    a6:
+      label: Assignment 6 - Neural Networks
+      content:
+      - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2023/assignments/A6/HW6.pdf
+        text: Neural Networks
+        description: <p>Includes 7 theoretical questions covering the sixth chapter
+          of the course syllabus (Neural Networks), released in Spring 2023.</p>
+        kind: S2023, Theoretical, Questions
+        icon: fas fa-file-pdf
+      - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2023/assignments/A6/HW6-Solution.pdf
+        text: Neural Networks [sol]
+        description: <p>Includes solution for 7 theoretical questions covering the
+          sixth chapter of the course syllabus (Neural Networks), released in Spring
+          2023.</p>
+        kind: S2023, Theoretical, Solutions
+        icon: far fa-file-pdf
+previous-semesters:
+  label:
+    positon: top
+    text: CE-417 | Previous Semesters
+  background: /assets/images/assignments.jpg
+  kind: chapters
+  content:
+  - title: CE417 - Fall 2022 - Prof. Rohban
+    content: "<p>One of CE-417's goals is to prepare you to apply fundamental Artificial\
+      \ Intelligence and \nMachine Learning algorithms to semi-realistic tasks and\
+      \ ensure that you have a solid \nunderstanding of the fundamentals of AI. The\
+      \ extensive problem sets of the course are \ncurated to serve as a means for\
+      \ achieving this purpose.\nPlease upload your answers to Quera on time; otherwise\
+      \ you would not earn any \ncredit for them. Take a note of these points regarding\
+      \ your assignments:\n* You will have <strong>6 Assignments</strong> Accounting\
+      \ for 50% of your overall grading\n* You are given <strong>27 \u201Cgrace days\u201D\
+      </strong> (self-granted extensions) in total for each assignment,\n  which you\
+      \ can use to give yourself extra time without penalty.\n* Every assignment has\
+      \ a hard deadline \u2014 which is <strong>ten</strong> days after the original\
+      \ due date (except for the last assignment \n  which has no delay)\u2014 after\
+      \ which no submission is accepted. \n* Delays are calculated hourly; minutes\
+      \ and seconds are rounded up.\n* You can choose how you wish to distribute your\
+      \ grace-days among your assignments at the\n  end of the semester.\nIf you have\
+      \ any questions regarding the problems, visit the appropriate forum in Quera.\
+      \ \nKeep in mind that no changes can be made to assignments at the last minute;\
+      \ therefore, please \nhave a look at the questions at least a week before the\
+      \ assignment's due date. No deadline will \nbe extended, and it is entirely\
+      \ on you to manage your \ntime and use your grace days accordingly. Finally,\
+      \ A word of advice, don't procrastinate \neverything up until the deadlines.</p>"
+    exam:
+      label:
+        text: Exams
+        position: top
+      midterm:
+        label: Midterm
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2022/exams/midterm.pdf
+          text: Midterm
+          description: <p>Midterm exam of F2022 course covering up to Adversarial
+            Search.</p>
+          kind: F2022, Theoretical, Exam, Midterm, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2022/exams/midterm-sol.pdf
+          text: Midterm [sol]
+          description: <p>Solutions for F2022 midterm exam.</p>
+          kind: F2022, Theoretical, Solutions, Exam, Midterm
+          icon: far fa-file-pdf
+      final:
+        label: Final
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2022/exams/final.pdf
+          text: Final
+          description: <p>Final exam of F2022 course covering from Bayesian Networks
+            up to the end of the course syllabus.</p>
+          kind: F2022, Theoretical, Exam, Final, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2022/exams/final-sol.pdf
+          text: Final [sol]
+          description: <p>Solutions for F2022 final exam.</p>
+          kind: F2022, Theoretical, Solutions, Exam, final
+          icon: far fa-file-pdf
+    theoretical:
+      label:
+        text: Assignments
+        position: top
+      a1:
+        label: Assignment 1 - Search
+        content:
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_f2022/assignments/A1/HW1.zip
+          text: Intelligent Agents, Informed Search, Local Search, Continues Optimization
+          description: <p>Includes 3 practical and 6 theoretical questions covering
+            the first chapter of the course syllabus (Intelligent Agents, Informed
+            Search, Local Search, Continues Optimization), released in Fall 2022.</p>
+          kind: F2022, Practical, Theoretical, Questions
+          icon: fas fa-file-archive
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2022/assignments/A1/HW1_Theoretical_solution.pdf
+          text: Intelligent Agents, Informed Search, Local Search, Continues Optimization
+            [Theoretical sol]
+          description: <p>Includes solution for 6 theoretical questions covering the
+            first chapter of the course syllabus (Intelligent Agents, Informed Search,
+            Local Search, Continues Optimization), released in Fall 2022.</p>
+          kind: F2022, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_f2022/assignments/A1/HW1_Practical_solution.zip
+          text: Intelligent Agents, Informed Search, Local Search, Continues Optimization
+            [Practical sol]
+          description: <p>Includes solution for 2 practical questions covering the
+            first chapter of the course syllabus (Intelligent Agents, Informed Search,
+            Local Search, Continues Optimization), released in Fall 2022.</p>
+          kind: F2022, Practical, Solutions
+          icon: far fa-file-archive
+      a2:
+        label: Assignment 2 - Adversarial Search and CSP
+        content:
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_f2022/assignments/A2/HW2.zip
+          text: Adversarial Search and CSP
+          description: <p>Includes 2 practical and 5 theorical questions covering
+            the second chapter of the course syllabus (Adversarial Search and CSP),
+            released in Fall 2022.</p>
+          kind: F2022, Practical, Theoretical, Questions
+          icon: fas fa-file-archive
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2022/assignments/A2/HW2_Theoretical_solution.pdf
+          text: Adversarial Search and CSP [Theoretical sol]
+          description: <p>Includes solution for 5 theoretical questions covering the
+            second chapter of the course syllabus (Adversarial Search and CSP), released
+            in Fall 2022.</p>
+          kind: F2022, Theoretical, Solutions
+          icon: far fa-file-pdf
+      a3:
+        label: Assignment 3 - Bayesian Networks and Temporal Probability Models
+        content:
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_f2022/assignments/A3/HW3.zip
+          text: Bayesian Networks and Temporal Probability Models
+          description: <p>Includes 3 practical and 6 theoretical questions covering
+            the third chapter of the course syllabus (Bayesian Networks and Temporal
+            Probability Models), released in Fall 2022.</p>
+          kind: F2022, Practical, Theoretical, Questions
+          icon: fas fa-file-archive
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2022/assignments/A3/HW3_Theoretical_solution.pdf
+          text: Bayesian Networks and Temporal Probability Models [Theoretical sol]
+          description: <p>Includes solution for 6 theoretical questions covering the
+            third chapter of the course syllabus (Bayesian Networks and Temporal Probability
+            Models), released in Fall 2022.</p>
+          kind: F2022, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_f2022/assignments/A3/HW3_Practical_Solution.zip
+          text: Bayesian Networks and Temporal Probability Models [Practical sol]
+          description: <p>Includes solution for 3 practical questions covering the
+            third chapter of the course syllabus (Bayesian Networks and Temporal Probability
+            Models), released in Fall 2022.</p>
+          kind: F2022, Practical, Solutions
+          icon: far fa-file-archive
+      a4:
+        label: Assignment 4 - Introduction to Machine Learning, Decision Tree, Regression
+        content:
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_f2022/assignments/A4/HW4.zip
+          text: Introduction to Machine Learning, Decision Tree, Regression
+          description: <p>Includes 2 practical and 6 theoretical questions covering
+            the fourth chapter of the course syllabus (Introduction to Machine Learning,
+            Decision Tree, Regression), released in Fall 2022.</p>
+          kind: F2022, Practical, Theoretical, Questions
+          icon: fas fa-file-archive
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2022/assignments/A4/HW4_Theoretical_solution.pdf
+          text: Introduction to Machine Learning, Decision Tree, Regression [Theoretical
+            sol]
+          description: <p>Includes solution for  6 theoretical questions covering
+            the fourth chapter of the course syllabus (Introduction to Machine Learning,
+            Decision Tree, Regression), released in Fall 2022.</p>
+          kind: F2022, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_f2022/assignments/A4/HW4_Practical_Solution.zip
+          text: Introduction to Machine Learning, Decision Tree, Regression [Practical
+            sol]
+          description: <p>Includes solution for 2 practical questions covering the
+            fourth chapter of the course syllabus (Introduction to Machine Learning,
+            Decision Tree, Regression), released in Fall 2022.</p>
+          kind: F2022, Practical, Solutions
+          icon: far fa-file-archive
+      a5:
+        label: Assignment 5 - Neural Networks
+        content:
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_f2022/assignments/A5/theory/A5.pdf
+          text: Neural Networks (Theoretical)
+          description: <p>Includes 5 theoretical questions covering the fifth chapter
+            of the course syllabus (Neural Networks), released in Fall 2022.</p>
+          kind: F2022, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_f2022/assignments/A5/practical.zip
+          text: Neural Networks (Practical)
+          description: <p>Includes 2 Practical questions covering the fifth chapter
+            of the course syllabus (Neural Networks), released in Fall 2022.</p>
+          kind: F2022, Practical, Questions
+          icon: fas fa-file-archive
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2022/assignments/A5/theory/HW5_Theoretical_solution.pdf
+          text: Neural Networks [Theoretical sol]
+          description: <p>Includes solution for 5 theoretical questions covering the
+            fifth chapter of the course syllabus (Neural Networks), released in Fall
+            2022.</p>
+          kind: F2022, Theoretical, Solutions
+          icon: far fa-file-pdf
+      a6:
+        label: Assignment 6 - Markov Decision Processes and Reinforcement Learning
+        content:
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_f2022/assignments/A6/theory/A6.pdf
+          text: Markov Decision Processes and Reinforcement Learning (Theoretical)
+          description: <p>Includes 5 theoretical questions covering the sixth chapter
+            of the course syllabus (Markov Decision Processes and Reinforcement Learning),
+            released in Fall 2022.</p>
+          kind: F2022, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_f2022/assignments/A6/HW6_Practical.zip
+          text: Markov Decision Processes and Reinforcement Learning (Practical)
+          description: <p>Includes 2 Practical questions covering the sixth chapter
+            of the course syllabus (Markov Decision Processes and Reinforcement Learning),
+            released in Fall 2022.</p>
+          kind: F2022, Practical, Questions
+          icon: fas fa-file-archive
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2022/assignments/A6/theory/HW6_Theoretical_solution.pdf
+          text: Markov Decision Processes and Reinforcement Learning [Theoretical
+            sol]
+          description: <p>Includes solution for 5 theoretical questions covering the
+            sixth chapter of the course syllabus (Markov Decision Processes and Reinforcement
+            Learning), released in Fall 2022.</p>
+          kind: F2022, Theoretical, Solutions
+          icon: far fa-file-pdf
+    kind: Index
+  - title: CE417 - Spring 2022 - Prof. Rohban
+    exam:
+      label:
+        text: Exams
+        position: top
+      midterm:
+        label: Midterm
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2022/exams/midterm.pdf
+          text: Midterm
+          description: <p>Midterm exam of S2022 course covering up to Bayesian Networks.</p>
+          kind: S2022, Theoretical, Exam, Midterm, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2022/exams/midterm-sol.pdf
+          text: Midterm [sol]
+          description: <p>Solutions for S2022 midterm exam.</p>
+          kind: S2022, Theoretical, Solutions, Exam, Midterm
+          icon: far fa-file-pdf
+      final:
+        label: Final
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2022/exams/final.pdf
+          text: Final
+          description: <p>Midterm exam of S2022 course covering from Bayesian Networks
+            up to the end of the course syllabus.</p>
+          kind: S2022, Theoretical, Exam, Final, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2022/exams/final-sol.pdf
+          text: Final [sol]
+          description: <p>Solutions for S2022 final exam.</p>
+          kind: S2022, Theoretical, Solutions, Exam, final
+          icon: far fa-file-pdf
+    theoretical:
+      label:
+        text: Assignments
+        position: top
+      a1:
+        label: Assignment 1 - Search
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2022/assignments/A1/A1.pdf
+          text: Intelligent Agents, Uninformed Search, Informed Search - Advanced
+            Heuistics
+          description: <p>Includes 2 practical and 6 theorical questions covering
+            the first chapter of the course syllabus (Intelligent Agents, Uninformed
+            Search, Informed Search - Advanced Heuistics), released in Spring 2022.</p>
+          kind: S2022, Practical, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2022/assignments/A1/HW1_solution.zip
+          text: Intelligent Agents, Uninformed Search, Informed Search - Advanced
+            Heuistics [sol]
+          description: <p>Includes solution for 2 practical and 6 theorical questions
+            covering the first chapter of the course syllabus (Intelligent Agents,
+            Uninformed Search, Informed Search - Advanced Heuistics), released in
+            Spring 2022.</p>
+          kind: S2022, Practical, Theoretical, Solutions
+          icon: far fa-file-archive
+      a2:
+        label: Assignment 2 - Local Search
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2022/assignments/A2/A2.pdf
+          text: Local Search, Continues Optimization
+          description: <p>Includes 2 practical and 8 theorical questions covering
+            the second chapter of the course syllabus (Local Search, Continues Optimization),
+            released in Spring 2022.</p>
+          kind: S2022, Practical, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2022/assignments/A2/HW2-solution.zip
+          text: Local Search, Continues Optimization [sol]
+          description: <p>Includes solution for 2 practical and 8 theorical questions
+            covering the second chapter of the course syllabus (Local Search, Continues
+            Optimization), released in Spring 2022.</p>
+          kind: S2022, Practical, Theoretical, Solutions
+          icon: far fa-file-archive
+      a3:
+        label: Assignment 3 - Adversarial Search and CSP
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2022/assignments/A3/A3.pdf
+          text: Adversarial Search and CSP
+          description: <p>Includes 2 practical and 5 theorical questions covering
+            the third chapter of the course syllabus (Adversarial Search and CSP),
+            released in Spring 2022.</p>
+          kind: S2022, Practical, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2022/assignments/A3/HW3-solution.zip
+          text: Adversarial Search and CSP [sol]
+          description: <p>Includes solution for 2 practical and 5 theorical questions
+            covering the second chapter of the course syllabus (Adversarial Search
+            and CSP), released in Spring 2022.</p>
+          kind: S2022, Practical, Theoretical, Solutions
+          icon: far fa-file-archive
+      a4:
+        label: Assignment 4 - Bayesian Networks
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2022/assignments/A4/A4.pdf
+          text: Bayesian Networks
+          description: <p>Includes 2 practical and 6 theorical questions covering
+            the fourth chapter of the course syllabus (Bayesian Networks), released
+            in Spring 2022.</p>
+          kind: S2022, Practical, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2022/assignments/A4/HW4
+            - solution.zip
+          text: Bayesian Networks [sol]
+          description: <p>Includes solution for 2 practical and 6 theorical questions
+            covering the fourth chapter of the course syllabus (Bayesian Networks),
+            released in Spring 2022.</p>
+          kind: S2022, Practical, Theoretical, Solutions
+          icon: far fa-file-archive
+      a5:
+        label: Assignment 5 - Temporal Probability Models and Introduction to Machine
+          Learning
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2022/assignments/A5/A5.pdf
+          text: Temporal probability models and introduction to machine learning
+          description: <p>Includes 2 practical and 5 theorical questions covering
+            the fifth chapter of the course syllabus (TPMs and ML), released in Spring
+            2022.</p>
+          kind: S2022, Practical, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2022/assignments/A5/HW5%20-%20solution.zip
+          text: Temporal Probability Models and Introduction to Machine Learning [sol]
+          description: <p>Includes solution for 2 practical and 5 theorical questions
+            covering the fifth chapter of the course syllabus (TPMs and ML), released
+            in Spring 2022.</p>
+          kind: S2022, Practical, Theoretical, Solutions
+          icon: far fa-file-archive
+      a6:
+        label: Assignment 6 - Machine Learning and Nueral Networks
+        content:
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2022/assignments/A6/HW6.zip
+          text: Machine learning and neural networks
+          description: <p>Includes 2 practical and 6 theorical questions covering
+            the sixth chapter of the course syllabus (ML and NN), released in Spring
+            2022.</p>
+          kind: S2022, Practical, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2022/assignments/A6/HW6%20-%20solution.zip
+          text: Machine learning and neural networks [sol]
+          description: <p>Includes solution for 2 practical and 6 theorical questions
+            covering the sixth chapter of the course syllabus (ML and NN), released
+            in Spring 2022.</p>
+          kind: S2022, Practical, Theoretical, Solutions
+          icon: far fa-file-archive
+      a7:
+        label: Assignment 7 - Reinforcement Learning
+        content:
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2022/assignments/A7/HW7.zip
+          text: Reinforcement Learning
+          description: <p>Includes 2 practical and 2 theorical questions covering
+            the seventh chapter of the course syllabus (Reinforcement learning), released
+            in Spring 2022.</p>
+          kind: S2022, Practical, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://github.com/sut-ai/resources/raw/master/problem_sets/rohban_s2022/assignments/A7/HW7%20-%20solution.zip
+          text: Reinforcement Learning [sol]
+          description: <p>Includes solution for 2 practical and 2 theorical questions
+            covering the seventh chapter of the course syllabus (Reinforcement learning),
+            released in Spring 2022.</p>
+          kind: S2022, Practical, Theoretical, Solutions
+          icon: far fa-file-archive
+    kind: Index
+  - title: CE417 - Fall 2021 - Prof. Rohban
+    exam:
+      label:
+        text: Exams
+        position: top
+      midterm:
+        label: Midterm
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/exams/midterm.pdf
+          text: Midterm
+          description: <p>Midterm examl of S2021 course covering up to Bayesian Networks.</p>
+          kind: F2021, Theoretical, Exam, Midterm, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/exams/midterm-sol.pdf
+          text: Midterm [sol]
+          description: <p>Solutions for F2021 midterm exam.</p>
+          kind: F2021, Theoretical, Solutions, Exam, Midterm
+          icon: far fa-file-pdf
+      final:
+        label: Final
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/exams/final.pdf
+          text: Final
+          description: <p>Final examl of F2021 course covering from the Temporal Probability
+            Models chapter.</p>
+          kind: F2021, Theoretical, Exam, Final, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/exams/final-sol.zip
+          text: Final [sol]
+          description: <p>Solutions for F2021 final exam.</p>
+          kind: F2021, Theoretical, Solutions, Exam, Final
+          icon: far fa-file-archive
+    theoretical:
+      label:
+        text: Theoretical Assignments
+        position: top
+      t1:
+        label: Theoretical Assignment 1 - Search
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T1/TQ1-1.pdf
+          text: T1.1 - Intelligent Agents, Uninformed Search
+          description: <p>Includes 3 theoretical questions covering Intelligent Agents
+            and Uninformed Search, released in F2021 </p>
+          kind: F2021, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T1/TA1-1.pdf
+          text: T1.1 - Intelligent Agents, Uninformed Search [sol]
+          description: <p>Including solution for theoretical questions of T1.1, released
+            in F2021</p>
+          kind: F2021, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T1/TQ1-2.pdf
+          text: T1.2 - Informed Search - Advanced Heuistics
+          description: <p>Includes 2 theoretical questions covering Informed Search
+            and Advanced Heuistics, released in F2021 </p>
+          kind: F2021, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T1/TA1-2.pdf
+          text: T1.2 - Informed Search - Advanced Heuistics [sol]
+          description: <p>Includes 2 theoretical questions covering Informed Search
+            and Advanced Heuistics, released in F2021 </p>
+          kind: F2021, Theoretical, Solutions
+          icon: far fa-file-pdf
+      t2:
+        label: Theoretical Assignment 2 - Search, Local Search & Search In Continuous
+          Space
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T2/TQ2-1.pdf
+          text: T2.1 - Advanced Heuistics
+          description: <p>Includes 1 theoretical question covering Advanced Heuistics,
+            released in F2021 </p>
+          kind: F2021, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T2/TA2-1.pdf
+          text: T2.1 - Advanced Heuistics [sol]
+          description: <p>Includes 1 theoretical question covering Advanced Heuistics,
+            released in F2021 </p>
+          kind: F2021, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T2/TQ2-2.pdf
+          text: T2.2 - Local Search - Search In Continuous Space
+          description: <p>Includes 2 theoretical question covering Local Search &amp;
+            Search In Continuous Space, released in F2021 </p>
+          kind: F2021, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T2/TA2-2.pdf
+          text: T2.2 - Local Search - Search In Continuous Space [sol]
+          description: <p>Includes 2 theoretical question covering Local Search &amp;
+            Search In Continuous Space, released in F2021 </p>
+          kind: F2021, Theoretical, Solutions
+          icon: far fa-file-pdf
+      t3:
+        label: Theoretical Assignment 3 - CSP, Adversarial
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T3/TQ3-1.pdf
+          text: T3.1 - Constraint Satisfaction Problems
+          description: <p>Includes 1 theoretical question covering Constraint Satisfaction
+            Problems, released in F2021 </p>
+          kind: F2021, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T3/TA3-1.pdf
+          text: T3.1 - Constraint Satisfaction Problems [sol]
+          description: <p>Includes 1 theoretical question covering Constraint Satisfaction
+            Problems, released in F2021 </p>
+          kind: F2021, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T3/TQ3-2.pdf
+          text: T3.2 - Adversarial Search
+          description: <p>Includes 1 theoretical question covering Adversarial Search
+            Problems, released in F2021 </p>
+          kind: F2021, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T3/TA3-2.pdf
+          text: T3.2 - Adversarial Search [sol]
+          description: <p>Includes 1 theoretical question covering Adversarial Search
+            Problems, released in F2021 </p>
+          kind: F2021, Theoretical, Solutions
+          icon: far fa-file-pdf
+      t4:
+        label: Theoretical Assignment 4 - Inference Under Uncertainty, Introduction
+          to Bayesian Networks
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T4/TQ4-1.pdf
+          text: T4.1 - Inference Under Uncertainty - Introduction to Bayesian Networks
+          description: <p>Includes 1 theoretical question covering Inference Under
+            Uncertainty, Introduction to Bayesian Networks, released in F2021 </p>
+          kind: F2021, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T4/TA4-1.pdf
+          text: T4.1 - Inference Under Uncertainty - Introduction to Bayesian Networks
+            [sol]
+          description: <p>Includes 1 theoretical question covering Inference Under
+            Uncertainty, Introduction to Bayesian Networks, released in F2021 </p>
+          kind: F2021, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T4/TQ4-2.pdf
+          text: T4.2 - Inference in the Bayesian Networks
+          description: <p>Includes 1 theoretical question covering Inference in the
+            Bayesian Networks, released in F2021 </p>
+          kind: F2021, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T4/TA4-2.pdf
+          text: T4.2 - Inference in the Bayesian Networks [sol]
+          description: <p>Includes 1 theoretical question covering Inference in the
+            Bayesian Networks, released in F2021 </p>
+          kind: F2021, Theoretical, Solutions
+          icon: far fa-file-pdf
+      t5:
+        label: Theoretical Assignment 5 - Temporal Probability Models, Intro to Machine
+          Learning
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T5/TQ5-1.pdf
+          text: T5.1 - Temporal Probability Models (Markov Models and Particle Filtering)
+          description: <p>Includes 1 theoretical question covering Temporal Probability
+            Models (Markov Models and Particle Filtering), released in F2021 </p>
+          kind: F2021, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T5/TA5-1.pdf
+          text: T5.1 - Temporal Probability Models (Markov Models and Particle Filtering)
+            [sol]
+          description: <p>Includes 1 theoretical question covering Temporal Probability
+            Models (Markov Models and Particle Filtering), released in F2021 </p>
+          kind: F2021, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T5/TQ5-2.pdf
+          text: T5.2 - Intro to Machine Learning (key concepts) - Learning a decision
+            tree (classification)
+          description: <p>Includes 1 theoretical question covering Intro to Machine
+            Learning (key concepts) and Learning a decision tree (classification),
+            released in F2021 </p>
+          kind: F2021, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T5/TA5-2.pdf
+          text: T5.2 - Intro to Machine Learning (key concepts) - Learning a decision
+            tree (classification) [sol]
+          description: <p>Includes 1 theoretical question covering Intro to Machine
+            Learning (key concepts) and Learning a decision tree (classification),
+            released in F2021 </p>
+          kind: F2021, Theoretical, Solutions
+          icon: far fa-file-pdf
+      t6:
+        label: Theoretical Assignment 6 - Linear and Logistic Regression, Perceptrons,
+          and Neural Networks
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T6/TQ6-1.pdf
+          text: T6.1 - Linear and Logistic Regression, Perceptrons
+          description: <p>Includes 1 theoretical question covering Linear and Logistic
+            Regression, Perceptrons, released in F2021 </p>
+          kind: F2021, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T6/TA6-1.pdf
+          text: T6.1 - Linear and Logistic Regression, Perceptrons [sol]
+          description: <p>Includes 1 theoretical question covering Linear and Logistic
+            Regression, Perceptrons, released in F2021 </p>
+          kind: F2021, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T6/TQ6-2.pdf
+          text: T6.2 - Neural Networks (Multilayer Perceptron and Convolutional Neural
+            Networks)
+          description: <p>Includes 1 theoretical question covering Neural Networks,
+            released in F2021 </p>
+          kind: F2021, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T6/TA6-2.pdf
+          text: T6.2 - Neural Networks (Multilayer Perceptron and Convolutional Neural
+            Networks) [sol]
+          description: <p>Includes 1 theoretical question covering Neural Networks,
+            released in F2021 </p>
+          kind: F2021, Theoretical, Solutions
+          icon: far fa-file-pdf
+      t7:
+        label: Theoretical Assignment 7 - Markov Decision Processes, Reinforcement
+          Learning
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T7/TQ7-1.pdf
+          text: T7.1 - Markov Decision Processes
+          description: <p>Includes 1 theoretical question covering Markov Decision
+            Processes, released in F2021 </p>
+          kind: F2021, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T7/TA7-1.pdf
+          text: T7.1 - Markov Decision Processes [sol]
+          description: <p>Includes 1 theoretical question covering Markov Decision
+            Processes, released in F2021 </p>
+          kind: F2021, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T7/TQ7-2.pdf
+          text: T7.2 - Reinforcement Learning
+          description: <p>Includes 1 theoretical question covering Reinforcement Learning,
+            released in F2021 </p>
+          kind: F2021, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/theoretical/T7/TA7-2.pdf
+          text: T7.2 - Reinforcement Learning [sol]
+          description: <p>Includes 1 theoretical question covering Reinforcement Learning,
+            released in F2021 </p>
+          kind: F2021, Theoretical, Solutions
+          icon: far fa-file-pdf
+    mini_project:
+      label:
+        text: Mini-projects
+        position: top
+      mp1:
+        label: Mini-project 1
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/mini_project/MP1/MPQ1.zip
+          text: MP1 - Intelligent Agents, Search
+          description: <p>Includes 4 practical and 3 theorical questions covering
+            the first and second chapters of the course syllabus (intelligent agents
+            &amp; search), released in Fall 2021.</p>
+          kind: F2021, Practical, Theoretical, Questions
+          icon: fas fa-file-archive
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/mini_project/MP1/MPA1.zip
+          text: MP1 - Intelligent Agents, Search [sol]
+          description: <p>Includes 4 practical and 3 theorical questions covering
+            the first and second chapters of the course syllabus (intelligent agents
+            &amp; search), released in Fall 2021.</p>
+          kind: F2021, Practical, Theoretical, Solutions
+          icon: far fa-file-archive
+      mp2:
+        label: Mini-project 2
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/mini_project/MP2/MPQ2.zip
+          text: MP2 - Continuous, CSP, Adversarial
+          description: <p>Includes 3 practical and 3 theorical questions covering
+            the second and third chapters of the course syllabus (Continuous, CSP,
+            Adversarial), released in Fall 2021.</p>
+          kind: F2021, Practical, Theoretical, Questions
+          icon: fas fa-file-archive
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/mini_project/MP2/MPA2.zip
+          text: MP2 - Continuous, CSP, Adversarial [sol]
+          description: <p>Includes 3 practical and 3 theorical questions covering
+            the second and third chapters of the course syllabus (Continuous, CSP,
+            Adversarial), released in Fall 2021.</p>
+          kind: F2021, Practical, Theoretical, Solutions
+          icon: far fa-file-archive
+      mp3:
+        label: Mini-project 3
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/mini_project/MP3/MPQ3.zip
+          text: MP3 - Baysian Networks, Temporal Probability Models
+          description: <p>Includes 3 practical and 3 theorical questions covering
+            the fourth and fifth chapters of the course syllabus (Baysian Networks,
+            Temporal Probability Models), released in Fall 2021.</p>
+          kind: F2021, Practical, Theoretical, Questions
+          icon: fas fa-file-archive
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/mini_project/MP3/MPA3.zip
+          text: MP3 - Baysian Networks, Temporal Probability Models [sol]
+          description: <p>Includes 3 practical and 3 theorical questions covering
+            the fourth and fifth chapters of the course syllabus (Baysian Networks,
+            Temporal Probability Models), released in Fall 2021.</p>
+          kind: F2021, Practical, Theoretical, Solutions
+          icon: far fa-file-archive
+      mp4:
+        label: Mini-project 4
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/mini_project/MP4/MPQ4.zip
+          text: MP4 - intro to ML, Regression, Perceptrons, DL
+          description: <p>Includes 3 practical and 3 theorical questions covering
+            the fifth and sixth chapters of the course syllabus (intro to ML, Regression,
+            Perceptrons, DL), released in Fall 2021.</p>
+          kind: F2021, Practical, Theoretical, Questions
+          icon: fas fa-file-archive
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/mini_project/MP4/MPA4.zip
+          text: MP4 - intro to ML, Regression, Perceptrons, DL [sol]
+          description: <p>Includes 3 practical and 3 theorical questions covering
+            the fifth and sixth chapters of the course syllabus (intro to ML, Regression,
+            Perceptrons, DL), released in Fall 2021.</p>
+          kind: F2021, Practical, Theoretical, Solutions
+          icon: far fa-file-archive
+      mp5:
+        label: Mini-project 5
+        kind: block
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2021/mini_project/MP5/MPQ5.zip
+          text: MP5 - MDP, RL
+          description: <p>Includes 2 practical and 2 theorical questions covering
+            the seventh chapter of the course syllabus (MDP, RL), released in Fall
+            2021.</p>
+          kind: F2021, Practical, Theoretical, Questions
+          icon: fas fa-file-archive
+    kind: Index
+  - title: CE417 - Spring 2021 - Prof. Rohban
+    exam:
+      label:
+        text: Exams
+        position: top
+      midterm:
+        label: Midterm
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/exams/midterm.pdf
+          text: Midterm
+          description: <p>Midterm examl of S2021 course covering up to Bayesian Networks.</p>
+          kind: S2021, Theoretical, Exam, Midterm, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/exams/midterm-sol.pdf
+          text: Midterm [sol]
+          description: <p>Solutions for S2021 midterm exam.</p>
+          kind: S2021, Theoretical, Solutions, Exam, Midterm
+          icon: far fa-file-pdf
+      final:
+        label: Final
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/exams/final.pdf
+          text: Final
+          description: <p>Final examl of S2021 course covering from Temporal Probability
+            Models.</p>
+          kind: S2021, Theoretical, Exam, Final, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/exams/final-sol.zip
+          text: Final [sol]
+          description: <p>Solutions for S2021 final exam.</p>
+          kind: S2021, Theoretical, Solutions, Exam, Final
+          icon: far fa-file-archive
+    theoretical:
+      label:
+        text: Theoretical Assignments
+        position: top
+      t1:
+        label: Theoretical Assignment 1 - Search
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series1/Theory%20-%20Chapter%201_Search%2C%20part%201.pdf
+          text: T1.1 - Intelligent Agents
+          description: <p>Includes 2 theoretical questions covering Introduction to
+            AI and Intelligent Agents, released in S2021.</p>
+          kind: S2021, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series1/%5Bsolution%5D%20Theory%20-%20Chapter%201_Search%2C%20part%201.pdf
+          text: T1.1 - Intelligent Agents [sol]
+          description: <p>Includes solutions for T1.1, released in S2021.</p>
+          icon: far fa-file-pdf
+          kind: S2021, Theoretical, Solutions
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series1/Theory%20-%20Chapter%201_Search%2C%20part%202.pdf
+          text: T1.2 - Informed Search
+          description: <p>Includes 2 theoretical questions covering Informed Search,
+            released in S2021.</p>
+          kind: S2021, Theoretical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series1/%5Bsolution%5D%20Theory%20-%20Chapter%201_Search%2C%20part%202.pdf
+          text: T1.2 - Informed Search [sol]
+          description: <p>Includes solutions for T1.2, released in S2021.</p>
+          icon: far fa-file-pdf
+          kind: S2021, Theoretical, Solutions
+      t2:
+        label: Theoretical Assignment 2 - Local Search & Search In Continuous Space
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series2/Theory%20-%20Chapter%202_Local%20Search%2C%20part%201.pdf
+          text: T2.1 - Local Search
+          description: <p>Includes 1 question covering Informed Search and 2 questions
+            covering Local Search, released in S2021.</p>
+          icon: fas fa-file-pdf
+          kind: S2021, Theoretical, Questions
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series2/%5Bsolution%5D%20Theory%20-%20Chapter%202_Local%20Search%2C%20part%201.pdf
+          text: T2.1 - Local Search [sol]
+          description: <p>Includes solutions for T2.1, released in S2021.</p>
+          kind: S2021, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series2/Theory%20-%20Chapter%202_Local%20Search%2C%20part%202.pdf
+          text: T2.2 - Search In Continuous Space
+          description: <p>Includes 1 question covering Local Search and 2 questions
+            covering Search In Continuous Space, released in S2021.</p>
+          icon: fas fa-file-pdf
+          kind: S2021, Theoretical, Questions
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series2/%5Bsolution%5D%20Theory%20-%20Chapter%202_Local%20Search%2C%20part%202.pdf
+          text: T2.2 - Search In Continuous Space [sol]
+          description: <p>Includes solutions for T2.2, released in S2021.</p>
+          icon: far fa-file-pdf
+          kind: S2021, Theoretical, Solutions
+      t3:
+        label: Theoretical Assignment 3 - CSP & Adversarial Search
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series3/Theory%20-%20Chapter%203_CSPs%20%26%20Adversarial%20Search.pdf
+          text: T3 - CSPs & Adversarial Search
+          description: <p>Includes 3 questions covering CSP and 2 questions covering
+            Adversarial Search, released in S2021.</p>
+          icon: fas fa-file-pdf
+          kind: S2021, Theoretical, Questions
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series3/%5Bsolution%5D%20Theory%20-%20Chapter%203_CSPs%20%26%20Adversarial%20Search.pdf
+          text: T3 - CSPs & Adversarial Search [sol]
+          description: <p>Includes solutions for T3, released in S2021.</p>
+          icon: far fa-file-pdf
+          kind: S2021, Theoretical, Solutions
+      t4:
+        label: Theoretical Assignment 4 - Bayesian Networks
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series4/Theory%20-%20Chapter%204_Bayesian%20Networks%2C%20part%201.pdf
+          text: T4.1 - Introduction to Bayesian Networks
+          description: <p>Includes 2 questions covering Introduction to Bayesian Networks,
+            released in S2021.</p>
+          icon: fas fa-file-pdf
+          kind: S2021, Theoretical, Questions
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series4/%5Bsolution%5D%20Theory%20-%20Chapter%204_Bayesian%20Networks%2C%20part%201.pdf
+          text: T4.1 - Introduction to Bayesian Networks [sol]
+          description: <p>Includes solutions for T4.1, released in S2021.</p>
+          icon: far fa-file-pdf
+          kind: S2021, Theoretical, Solutions
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series4/Theory%20-%20Chapter%204_Bayesian%20Networks%2C%20part%202.pdf
+          text: T4.2 - Inference in the Bayesian Networks
+          description: <p>Includes 2 questions covering Inference in the Bayesian
+            Networks, released in S2021.</p>
+          icon: fas fa-file-pdf
+          kind: S2021, Theoretical, Questions
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series4/%5Bsolution%5D%20Theory%20-%20Chapter%204_Bayesian%20Networks%2C%20part%202.pdf
+          text: T4.2 - Inference in the Bayesian Networks [sol]
+          description: <p>Includes solutions for T4.2, released in S2021.</p>
+          icon: far fa-file-pdf
+          kind: S2021, Theoretical, Solutions
+      t5:
+        label: Theoretical Assignment 5 - Temporal Probability Models & Intro to Machine
+          Learning
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series5/Theory%20-%20Chapter%205_Temporal%20Probability%20Models%20and%20Intro%20to%20Machine%20Learning%2C%20part%201.pdf
+          text: T5.1 - Temporal Probability Models
+          description: <p>Includes 1 question covering Inference in the Bayesian Networks
+            and 2 questions covering Temporal Probability Models, released in S2021.</p>
+          icon: fas fa-file-pdf
+          kind: S2021, Theoretical, Questions
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series5/%5Bsolution%5D%20Theory%20-%20Chapter%205_Temporal%20Probability%20Models%20and%20Intro%20to%20Machine%20Learning%2C%20part%201.pdf
+          text: T5.1 - Temporal Probability Models [sol]
+          description: <p>Includes solutions for T5.1, released in S2021.</p>
+          icon: far fa-file-pdf
+          kind: S2021, Theoretical, Solutions
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series5/Theory%20-%20Chapter%205_Temporal%20Probability%20Models%20and%20Intro%20to%20Machine%20Learning%2C%20part%202.pdf
+          text: T5.2 - Intro to Machine Learning
+          description: <p>Includes 1 question covering Temporal Probability Models
+            and 1 question covering Intro to Mahcine Learning, released in S2021.</p>
+          icon: fas fa-file-pdf
+          kind: S2021, Theoretical, Questions
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series5/%5Bsolution%5D%20Theory%20-%20Chapter%205_Temporal%20Probability%20Models%20and%20Intro%20to%20Machine%20Learning%2C%20part%202.pdf
+          text: T5.2 - Intro to Machine Learning [sol]
+          description: <p>Includes solutions for T5.2, released in S2021.</p>
+          icon: far fa-file-pdf
+          kind: S2021, Theoretical, Solutions
+      t6:
+        label: Theoretical Assignment 6 - Machine Learning & Deep Neural Networks
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series6/Theory%20-%20Chapter%206_Machine%20Learning%20and%20Neural%20Networks%2C%20part%201.pdf
+          text: T6.1 - Machine Learning
+          description: <p>Includes 2 questions covering Machine Learning, released
+            in S2021.</p>
+          icon: fas fa-file-pdf
+          kind: S2021, Theoretical, Questions
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series6/%5Bsolution%5D%20Theory%20-%20Chapter%206_Machine%20Learning%20and%20Neural%20Networks%2C%20part%201.pdf
+          text: T6.1 - Machine Learning [sol]
+          description: <p>Includes solutions for T6.1, released in S2021.</p>
+          icon: far fa-file-pdf
+          kind: S2021, Theoretical, Solutions
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series6/Theory%20-%20Chapter%206_Machine%20Learning%20and%20Neural%20Networks%2C%20part%202.pdf
+          text: T6.2 - Deep Neural Networks
+          description: <p>Includes 1 question covering Machine Learning and 2 questions
+            covering Deep Neural Networks, released in S2021.</p>
+          icon: fas fa-file-pdf
+          kind: S2021, Theoretical, Questions
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series6/%5Bsolution%5D%20Theory%20-%20Chapter%206_Machine%20Learning%20and%20Neural%20Networks%2C%20part%202.pdf
+          text: T6.2 - Deep Neural Networks [sol]
+          description: <p>Includes solutions for T6.2, released in S2021.</p>
+          icon: far fa-file-pdf
+          kind: S2021, Theoretical, Solutions
+      t7:
+        label: Theoretical Assignment 7 - MDP & RL
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series7/Theory%20-%20Chapter%207_MDP%20%26%20RL%2C%20part%201.pdf
+          text: T7.1 - Markov Decision Processes
+          description: <p>Includes 2 questions covering Markov Decision Processes,
+            released in S2021.</p>
+          icon: fas fa-file-pdf
+          kind: S2021, Theoretical, Questions
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series7/%5Bsolution%5D%20Theory%20-%20Chapter%207_MDP%20%26%20RL%2C%20part%201.pdf
+          text: T7.1 - Markov Decision Processes [sol]
+          description: <p>Includes solutions for T7.1, released in S2021.</p>
+          icon: far fa-file-pdf
+          kind: S2021, Theoretical, Solutions
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series7/Theory%20-%20Chapter%207_MDP%20%26%20RL%2C%20part%202.pdf
+          text: T7.2 - Reinforcement Learning
+          description: <p>Includes 2 questions covering Reinforcement Learning, released
+            in S2021.</p>
+          icon: fas fa-file-pdf
+          kind: S2021, Theoretical, Questions
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/theoretical/series7/%5Bsolution%5D%20Theory%20-%20Chapter%207_MDP%20%26%20RL%2C%20part%202.pdf
+          text: T7.2 - Reinforcement Learning [sol]
+          description: <p>Includes solutions for T7.2, released in S2021.</p>
+          icon: far fa-file-pdf
+          kind: S2021, Theoretical, Solutions
+    practical:
+      label:
+        text: Practical Assignments
+        position: top
+      content:
+      - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/practical/series1/Practical%20-%20Chapter%201%20%26%202_Search.zip
+        text: P1 - Search
+        description: <p>Includes 4 practical questions covering the first and second
+          chapters of the course syllabus (intelligent agents &amp; search) along
+          with their solutions, released in Spring 2021.</p>
+        kind: S2021, Practical, Questions, Solutions
+        icon: far fa-file-archive
+      - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/practical/series2/Practical%20-%20Chapter%203_CSPs%20%26%20Adversarial%20Search.zip
+        text: P2 - CSPs & Adversarial Search
+        description: <p>Includes 3 practical questions about Constraint Satisfaction
+          Problems and Adversarial Search Algorithms along with their solutions, released
+          in Spring 2021.</p>
+        kind: S2021, Practical, Questions, Solutions
+        icon: far fa-file-archive
+      - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/practical/series3/Practical%20-%20Chapter%204_Bayesian%20Networks.zip
+        text: P3 - Bayesian Networks
+        description: <p>Includes 3 practical questions about Baysian Networks along
+          with their solutions, released in Spring 2021.</p>
+        kind: S2021, Practical, Questions, Solutions
+        icon: far fa-file-archive
+      - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/practical/series4/Practical%20-%20Chapter%205%20%26%206_Learning%20and%20Neural%20Networks.zip
+        text: P4 - Learning and Neural Networks
+        description: <p>Includes 2 practical questions about general ML and Deep Neural
+          Networks along with their solutions, released in Spring 2021.</p>
+        icon: far fa-file-archive
+        kind: S2021, Practical, Questions, Solutions
+      - link: https://sut-ai.github.io/resources/problem_sets/rohban_s2021/practical/series5/Practical%20-%20Chapter%207_Reinforcement%20Learning.pdf
+        description: <p>Includes 1 practical question about (Deep) Reinforcement Learning
+          (RL/DRL), released in Spring 2021.</p>
+        text: P5 - Reinforcement Learning
+        icon: fas fa-file-pdf
+        kind: S2021, Practical, Questions
+    kind: Index
+  - title: CE417 - Fall 2020 - Prof. Rohban
+    exam:
+      label:
+        text: Exams
+        position: top
+      midterm:
+        label: Midterm
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/exams/midterm.pdf
+          text: Midterm
+          description: <p>Midterm examl of F2020 course covering up to Adversarial
+            Search.</p>
+          kind: F2020, Theoretical, Exam, Midterm, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/exams/midterm-sol.pdf
+          text: Midterm [sol]
+          description: <p>Solutions for F2020 midterm exam.</p>
+          kind: F2020, Theoretical, Solutions, Exam, Midterm
+          icon: far fa-file-pdf
+      final:
+        label: Final
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/exams/final.pdf
+          text: Final
+          description: <p>Final examl of F2020 course covering from Bayesian Networks.</p>
+          kind: F2020, Theoretical, Exam, Final, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/exams/final-sol.zip
+          text: Final [sol]
+          description: <p>Solutions for F2020 final exam.</p>
+          kind: F2020, Theoretical, Solutions, Exam, Final
+          icon: far fa-file-archive
+    theoretical:
+      label:
+        text: Assignments
+        position: top
+      t1:
+        label: Assignment 1 - Intelligent Aagents and Informed Search
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw1-1/hw1-1.pdf
+          text: HW1.1 - Intelligent Agents
+          description: <p>Including 4 theoretical questions and 1 practical question
+            covering Intelligent Agents and Informed Search, released in F2020</p>
+          kind: F2020, Theoretical, Practical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw1-1/sol1-1.pdf
+          text: T1.1 - Intelligent Agents [sol]
+          description: <p>Including solution for theoretical questions of HW1.1, released
+            in F2020</p>
+          kind: F2020, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw1-1/practical-sol.zip
+          text: P1.1 - Intelligent Agents [sol]
+          description: <p>Including solution for practical questions of HW1.1, released
+            in F2020</p>
+          kind: F2020, Practical, Solutions
+          icon: far fa-file-archive
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw1-2/hw1-2.pdf
+          text: HW1.2 - Informed Search
+          description: <p>Including 4 theoretical questions and 1 practical questions
+            covering Informed Search and Heuristics, released in F2020</p>
+          kind: F2020, Theoretical, Practical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw1-2/sol1-2.pdf
+          text: T1.2 - Informed Search [sol]
+          description: <p>Including solution for theoretical questions of HW1.2, released
+            in F2020</p>
+          kind: F2020, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw1-2/practical-sol.zip
+          text: P1.2 - Informed Search [sol]
+          description: <p>Including solution for practical questions of HW1.2, released
+            in F2020</p>
+          kind: F2020, Practical, Solutions
+          icon: far fa-file-archive
+      t2:
+        label: Assignment 2 - Local Search and Search In Continuous Space
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw2-1/hw2-1.pdf
+          text: HW2.1 - Local Search
+          description: <p>Including 3 theoretical questions and 1 practical question
+            covering Local Search, released in F2020</p>
+          kind: F2020, Theoretical, Practical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw2-1/sol2-1.pdf
+          text: T2.1 - Local Search [sol]
+          description: <p>Including solution for theoretical questions of HW2.1, released
+            in F2020</p>
+          kind: F2020, Theoretical, Solutions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw2-1/practical-sol.zip
+          text: P2.1 - Local Search [sol]
+          description: <p>Including solution for practical questions of HW2.1, released
+            in F2020</p>
+          kind: F2020, Practical, Solutions
+          icon: far fa-file-archive
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw2-2/hw2-2.pdf
+          text: HW2.2 - Search In Continuous Space
+          description: <p>Including 2 theoretical questions and 1 practical question
+            covering Search In Continuous Space, released in F2020</p>
+          kind: F2020, Theoretical, Practical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw2-2/sol2-2.pdf
+          text: T2.2 - Search In Continuous Space [sol]
+          description: <p>Including solution for theoretical questions of HW2.2, released
+            in F2020</p>
+          kind: F2020, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw2-2/practical-sol.zip
+          text: P2.2 - Search In Continuous Space [sol]
+          description: <p>Including solution for practical questions of HW2.2, released
+            in F2020</p>
+          kind: F2020, Practical, Solutions
+          icon: far fa-file-archive
+      t3:
+        label: Assignment 3 - CSP & Adversarial Search
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw3-1/hw3-1.pdf
+          text: HW3.1 - CSP
+          description: <p>Including 3 theoretical questions and 1 practical question
+            covering CSP, released in F2020</p>
+          kind: F2020, Theoretical, Practical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw3-1/sol3-1.pdf
+          text: T3.1 - CSP [sol]
+          description: <p>Including solution for theoretical questions of HW3.1, released
+            in F2020</p>
+          kind: F2020, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw3-1/practical-sol.zip
+          text: P3.1 - CSP [sol]
+          description: <p>Including solution for practical questions of HW3.1, released
+            in F2020</p>
+          kind: F2020, Practical, Solutions
+          icon: far fa-file-archive
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw3-2/hw3-2.pdf
+          text: HW3.2 - Adversarial Search
+          description: <p>Including 2 theoretical questions and 1 practical question
+            covering Adversarial Search, released in F2020</p>
+          kind: F2020, Theoretical, Practical, Questions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw3-2/sol3-2.pdf
+          text: T3.2 - Adversarial Search [sol]
+          description: <p>Including solution for theoretical questions of HW3.2, released
+            in F2020</p>
+          kind: F2020, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw3-2/practical-sol.zip
+          text: P3.2 - Adversarial Search [sol]
+          description: <p>Including solution for practical questions of HW3.2, released
+            in F2020</p>
+          kind: F2020, Practical, Solutions
+          icon: far fa-file-archive
+      t4:
+        label: Assignment 4 - Bayesian Networks
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw4-1/hw4-1.pdf
+          text: HW4.1 - Introduction to Bayesian Networks
+          description: <p>Including 3 theoretical questions and 1 practical question
+            covering Introduction to Bayesian Networks, released in F2020</p>
+          kind: F2020, Theoretical, Practical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw4-1/sol4-1.pdf
+          text: T4.1 - Introduction to Bayesian Networks [sol]
+          description: <p>Including solution for theoretical questions of HW4.1, released
+            in F2020</p>
+          kind: F2020, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw4-1/practical-sol.zip
+          text: P4.1 - Introduction to Bayesian Networks [sol]
+          description: <p>Including solution for practical questions of HW4.1, released
+            in F2020</p>
+          kind: F2020, Practical, Solutions
+          icon: far fa-file-archive
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw4-2/hw4-2.pdf
+          text: HW4.2 - Inference in the Bayesian Networks
+          description: <p>Including 3 theoretical questions and 1 practical question
+            covering Inference in the Bayesian Networks, released in F2020</p>
+          kind: F2020, Theoretical, Practical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw4-2/sol4-2.pdf
+          text: T4.2 - Inference in the Bayesian Networks [sol]
+          description: <p>Including solution for theoretical questions of HW4.2, released
+            in F2020</p>
+          kind: F2020, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw4-2/practical-sol.zip
+          text: P4.2 - Inference in the Bayesian Networks [sol]
+          description: <p>Including solution for practical questions of HW4.2, released
+            in F2020</p>
+          kind: F2020, Practical, Solutions
+          icon: far fa-file-archive
+      t5:
+        label: Assignment 5 - Temporal Probability Models & Intro to Machine Learning
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw5-1/hw5-1.pdf
+          text: HW5.1 - Temporal Probability Models
+          description: <p>Including 2 theoretical questions and 1 practical question
+            covering Temporal Probability Models, released in F2020</p>
+          kind: F2020, Theoretical, Practical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw5-1/sol5-1.pdf
+          text: T5.1 - Temporal Probability Models [sol]
+          description: <p>Including solution for theoretical questions of HW5.1, released
+            in F2020</p>
+          kind: F2020, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw5-1/practical-sol.zip
+          text: P5.1 - Temporal Probability Models [sol]
+          description: <p>Including solution for practical questions of HW5.1, released
+            in F2020</p>
+          kind: F2020, Practical, Solutions
+          icon: far fa-file-archive
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw5-2/hw5-2.pdf
+          text: HW5.2 - Intro to Machine Learning
+          description: <p>Including 3 theoretical questions and 1 practical question
+            covering Intro to Machine Learning, released in F2020</p>
+          kind: F2020, Theoretical, Practical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw5-2/sol5-2.pdf
+          text: T5.2 - Intro to Machine Learning [sol]
+          description: <p>Including solution for theoretical questions of HW5.2, released
+            in F2020</p>
+          kind: F2020, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw5-2/practical-sol.zip
+          text: P5.2 - Intro to Machine Learning [sol]
+          description: <p>Including solution for practical questions of HW5.2, released
+            in F2020</p>
+          kind: F2020, Practical, Solutions
+          icon: far fa-file-archive
+      t6:
+        label: Assignment 6 - Machine Learning & Deep Neural Networks
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw6-1/hw6-1.pdf
+          text: HW6.1 - Machine Learning
+          description: <p>Including 2 theoretical questions and 1 practical question
+            covering Machine Learning, released in F2020</p>
+          kind: F2020, Theoretical, Practical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw6-1/sol6-1.pdf
+          text: T6.1 - Machine Learning [sol]
+          description: <p>Including solution for theoretical questions of HW6.1, released
+            in F2020</p>
+          kind: F2020, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw6-1/practical-sol.zip
+          text: P6.1 - Machine Learning [sol]
+          description: <p>Including solution for practical questions of HW6.1, released
+            in F2020</p>
+          kind: F2020, Practical, Solutions
+          icon: far fa-file-archive
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw6-2/hw6-2.pdf
+          text: HW6.2 - Deep Neural Networks
+          description: <p>Including 2 theoretical questions and 1 practical question
+            covering Deep Neural Networks, released in F2020</p>
+          kind: F2020, Theoretical, Practical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw6-2/sol6-2.pdf
+          text: T6.2 - Deep Neural Networks [sol]
+          description: <p>Including solution for theoretical questions of HW6.2, released
+            in F2020</p>
+          kind: F2020, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw6-2/practical-sol.zip
+          text: P6.2 - Deep Neural Networks [sol]
+          description: <p>Including solution for practical questions of HW6.2, released
+            in F2020</p>
+          kind: F2020, Practical, Solutions
+          icon: far fa-file-archive
+      t7:
+        label: Assignment 7 - Markov Decision Processes & Reinforcement Learning
+        content:
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw7-1/hw7-1.pdf
+          text: HW7.1 - Markov Decision Processes
+          description: <p>Including 3 theoretical questions and 1 practical question
+            covering Markov Decision Processes, released in F2020</p>
+          kind: F2020, Theoretical, Practical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw7-1/sol7-1.pdf
+          text: T7.1 - Markov Decision Processes [sol]
+          description: <p>Including solution for theoretical questions of HW7.1, released
+            in F2020</p>
+          kind: F2020, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw7-1/practical-sol.zip
+          text: P7.1 - Markov Decision Processes [sol]
+          description: <p>Including solution for practical questions of HW7.1, released
+            in F2020</p>
+          kind: F2020, Practical, Solutions
+          icon: far fa-file-archive
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw7-2/hw7-2.pdf
+          text: HW7.2 - Reinforcement Learning
+          description: <p>Including 2 theoretical questions and 2 practical question
+            covering Reinforcement Learning, released in F2020</p>
+          kind: F2020, Theoretical, Practical, Questions
+          icon: fas fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw7-2/sol7-2.pdf
+          text: T7.2 - Reinforcement Learning [sol]
+          description: <p>Including solution for theoretical questions of HW7.2, released
+            in F2020</p>
+          kind: F2020, Theoretical, Solutions
+          icon: far fa-file-pdf
+        - link: https://sut-ai.github.io/resources/problem_sets/rohban_f2020/assignments/hw7-2/practical-sol.zip
+          text: P7.2 - Reinforcement Learning [sol]
+          description: <p>Including solution for practical questions of HW7.2, released
+            in F2020</p>
+          kind: F2020, Practical, Solutions
+          icon: far fa-file-archive
+    kind: Index
+kind: Index
