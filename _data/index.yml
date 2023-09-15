@@ -1,10 +1,4 @@
 title: SUT-AI | Home
-header:
-  title: <p>Artificial Intelligence Course</p>
-  description: <p>Sharif University of Technology</p>
-  background: /assets/images/header-bg.jpg
-footer:
-  background: /assets/images/header-bg.jpg
 nav:
   brand:
     text: SUT-AI
@@ -12,7 +6,6 @@ nav:
   content:
   - index: index
     text: Home
-    description: Sharif University of Technology
     link: /
     kind: Index
   - index: pages/lectures/index
@@ -53,27 +46,29 @@ config:
     content: true
     links: false
 course-bio:
-  label: Artificial Intelligence
-  content: "<p>In this course you will learn what Artificial Intelligence (AI) is,\
-    \ explore use cases and applications of AI, understand AI concepts and terms like\
-    \ machine learning, deep learning and neural networks. You will be exposed to\
-    \ various issues and concerns surrounding AI such as ethics and bias, &amp; jobs,\
-    \ and get advice from experts about learning and starting a career in AI. You\
-    \ will also demonstrate AI in action with a mini project. \nThis course does not\
-    \ require any programming or computer science expertise and is designed to introduce\
-    \ the basics of AI to anyone whether you have a technical background or not.</p>"
-  background: /assets/images/header-bg.jpg
-  links:
-  - link: http://ce.sharif.edu/courses/00-01/2/ce417-1/
-    text: CE course webpage
-    icon: fas fa-globe
-  - link: https://quera.org/course/add_to_course/course/13173/
-    text: Quera
-    icon: icon-quera
-  - link: https://docs.google.com/spreadsheets/d/1xdr17h5KWgebXSClU9-sEUSjhps6Z7oJp8krnFGj-EU/edit?usp=sharing
-    text: Gradesheet
-    icon: fas fa-scroll
+  content: "<div>\n<p>In this course you will learn what Artificial Intelligence (AI)\
+    \ is, explore use cases and applications of AI, understand AI concepts and terms\
+    \ like machine learning, deep learning and neural networks. You will be exposed\
+    \ to various issues and concerns surrounding AI such as ethics and bias, &amp;\
+    \ jobs, and get advice from experts about learning and starting a career in AI.\
+    \ You will also demonstrate AI in action with a mini project. \nThis course does\
+    \ not require any programming or computer science expertise and is designed to\
+    \ introduce the basics of AI to anyone whether you have a technical background\
+    \ or not.\n</p>\n<a class=\"\" href=\"http://ce.sharif.edu/courses/00-01/2/ce417-1/\"\
+    ><i aria-hidden=\"true\" class=\"fas fa-globe\"></i> \n            CE course webpage\n\
+    \        </a>\n<a class=\"ms-2\" href=\"https://quera.org/course/add_to_course/course/13173/\"\
+    ><i aria-hidden=\"true\" class=\"icon-quera\"></i> \n            Quera\n     \
+    \   </a>\n<a class=\"ms-2\" href=\"https://docs.google.com/spreadsheets/d/1xdr17h5KWgebXSClU9-sEUSjhps6Z7oJp8krnFGj-EU/edit?usp=sharing\"\
+    ><i aria-hidden=\"true\" class=\"fas fa-scroll\"></i> \n            Gradesheet\n\
+    \        </a>\n</div>"
+  label:
+    text: Artificial Intelligence
+    extra_styles: text-primary fs-4 mb-2
 instructors:
+  label:
+    text: Instructors
+    extra_styles: text-primary fs-4 mb-2
+  inline: true
   background: /assets/images/header-bg.jpg
   content:
     label: false

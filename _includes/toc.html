@@ -1,14 +1,15 @@
-<div class="container-fluid p-0 m-0 no-gutters">
+<div class="w-100 p-0 m-0 no-gutters">
     {% assign index_tag = include.index.title | remove: " " %}
 
     <!--generic content spaces-->
     {% for pair in include.index %}
         {% if pair[0] == "title" or pair[0] == "nav" or pair[0] == "footer" or pair[0] =="header"
-            or pair[0] == "meta" or pair[0] == "config" or pair[0] == "search" or pair[0] == "style" or pair[0] == "kind" %}
+            or pair[0] == "meta" or pair[0] == "config" or pair[0] == "search" or pair[0] == "style" or pair[0] == "kind"
+            or pair[0] == "inline" %}
             {% continue %}
         {% endif %}
-
-        {% if include.inline != null  %}
+        {% assign inline = include.inline | default: pair[1].inline %}
+        {% if inline  %}
             {% if pair[0] == "kind" or pair[0] =="background" or pair[0] =="label" %}
                 {% continue %}
             {% endif %}
@@ -49,7 +50,7 @@
         <div
             id="{{pair[0]}}"
             {% if pair[1].background %}
-                {% if include.inline != null %}
+                {% if inline %}
                     class="row align-items-start p-0 py-2"
                 {% else %}
                     class="row align-items-start py-3 p{{pad_direction}}-xs-0 p{{pad_direction}}-sm-0
@@ -63,7 +64,7 @@
                       background-size: cover;"
                 {% endif %}
             {% else %}
-                {% if include.inline != null %}
+                {% if inline %}
                     class="row align-items-start p-0 py-1"
                 {% else %}
                     class="{{section_shadow}} row align-items-start my-2 p{{pad_direction}}-xs-0
@@ -73,40 +74,40 @@
                 {% endif %}
             {% endif %}
         >
-            {% if pair[1].label != false and include.inline == null %}
+            {% if pair[1].label != false and inline == null %}
                 {% if pair[1].label.position == null or pair[1].label.position == "left" %}
                     <div class="mt-4 mb-4 shadow-lg bg-dark col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2
-                        col-xxl-2 p-2 d-flex text-muted justify-content-center"
+                        col-xxl-2 p-2 d-flex text-muted justify-content-center {{ pair[1].label.extra_styles }}"
                     >
                         <strong>{{label}}</strong>
                     </div>
                 {% else %}
-                    {% if pair[1].label.position != null and pair[1].label.position == "top" %}
+                    {% if pair[1].label.position and pair[1].label.position == "top" %}
                         <div class="text-white  text-muted text-center col-12 bg-dark py-3">
-                            <span class="bg-dark shadow-lg bg-dark p-3 px-5 w-100"><strong>
+                            <span class="bg-dark shadow-lg bg-dark p-3 px-5 w-100 {{ pair[1].label.extra_styles }}"><strong>
                                 {{label}}</strong>
                             </span>
                         </div>
                     {% endif %}
                 {% endif %}
             {% endif %}
-            {% if include.inline != null and pair[1].label != false %}
-                <span class="text-muted pt-2 pb-1">
+            {% if inline and pair[1].label != false %}
+                <span class="text-muted pt-2 pb-1 {{ pair[1].label.extra_styles }}">
                     <strong>{{label}}</strong>
                 </span>
             {% endif %}
             <div
-                {% if pair[1].label != false and include.inline == null and pair[1].label.position != "top" and
+                {% if pair[1].label != false and inline == null and pair[1].label.position != "top" and
                     pair[1].label.position != "bottom" %}
                     class="rounded {{section_content_shadow}} bg-white shadow col-12 col-sm-12
                         col-md-10 col-lg-10 col-xl-10  col-xxl-10  {{spacing}} justify-content-center"
                 {% else %}
-                    {% if include.inline ==null %}
+                    {% unless inline %}
                         class="rounded {{section_content_shadow}} bg-white shadow col-12 {{spacing}}
                         justify-content-center"
                     {% else %}
-                        class="px-4"
-                    {% endif %}
+                        class=""
+                    {% endunless %}
                 {% endif %}
             >
                 {% case pair[1].kind %}
@@ -131,7 +132,7 @@
                             {% else %}
                             {% assign kind_block = false %}
                             {% endif %}
-                            {% include links.html links=content inline=include.inline kind_block=kind_block %}
+                            {% include links.html links=content inline=inline kind_block=kind_block %}
                         {% else %}
                             {% if value.first %}
                                 {% include toc.html index=value inline=true level=include.level %}
@@ -142,13 +143,13 @@
                 {% endcase %}
             </div>
 
-            {% if pair[1].label.position != null and pair[1].label.position == "bottom" %}
+            {% if pair[1].label.position and pair[1].label.position == "bottom" %}
                 {% assign label = pair[1].label.text | pair[1].label |default: pair[0] %}
                 {% if label.first %}
                     {% assign label = default: pair[0] %}
                 {% endif %}
                 <div class="text-white  text-muted text-center col-12 bg-dark py-3">
-                    <span class="bg-dark shadow-lg bg-dark p-3 px-5 w-100"><strong>
+                    <span class="bg-dark shadow-lg bg-dark p-3 px-5 w-100 {{ pair[1].label.extra_styles }}"><strong>
                         {{label}}
                     </strong></span>
                 </div>
