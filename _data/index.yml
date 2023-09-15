@@ -61,6 +61,7 @@ course-bio:
     \   </a>\n<a class=\"ms-2\" href=\"https://docs.google.com/spreadsheets/d/1xdr17h5KWgebXSClU9-sEUSjhps6Z7oJp8krnFGj-EU/edit?usp=sharing\"\
     ><i aria-hidden=\"true\" class=\"fas fa-scroll\"></i> \n            Gradesheet\n\
     \        </a>\n</div>"
+  inline: true
   label:
     text: Artificial Intelligence
     extra_styles: text-primary fs-4 mb-2
