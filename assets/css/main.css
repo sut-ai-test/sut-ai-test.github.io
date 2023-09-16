@@ -14,11 +14,7 @@
 }
 
 .text-primary {
-    color: var(--ai-primary) !important;;
-}
-
-p {
-    text-align: justify;
+    color: var(--ai-primary) !important;
 }
 
 .icon-quera {

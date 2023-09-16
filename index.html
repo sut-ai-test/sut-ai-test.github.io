@@ -37,7 +37,7 @@
 
 <body class="scroll-smooth">
   
-  <div class="flex flex-col h-screen">
+  <div class="flex flex-col">
     
       <nav class="bg-primary shadow-sm w-full sticky top-0">
   <div class="max-w-screen-2xl flex flex-wrap items-center justify-between md:justify-start mx-auto p-4 pb-0">
@@ -67,6 +67,19 @@
                   hover:text-white
                "
           >Home</a>
+        </li>
+        
+        
+        <li>
+          <a href="/#schedule"
+             class="
+                  block py-2 pl-3 pr-4
+                  
+                  text-gray-400
+                  
+                  hover:text-white
+               "
+          >Schedule</a>
         </li>
         
         
@@ -115,109 +128,250 @@
     
     <div class="flex-grow mt-1 pl-10 pr-10 pt-4 pb-4 md:max-w-screen-xl md:mx-auto md:w-full">
       
-salam bar to
+  <!--Schedule-->
   
-  <br>
+    
+<div id="schedule">
+    <div class="text-primary font-bold mb-4 text-2xl">Schedule</div>
+    <table class="flex flex-row flex-no-wrap sm:bg-white md:inline-table">
+      <colgroup>
+        
+        
+          <col style="width: 0.14285714285714285%">
+        
+          <col style="width: 0.14285714285714285%">
+        
+          <col style="width: 0.42857142857142855%">
+        
+          <col style="width: 0.14285714285714285%">
+        
+          <col style="width: 0.14285714285714285%">
+        
+      </colgroup>
+      <thead>
+        <tr class="bg-zinc-200 border-b-2 border-b-gray-500 hidden md:table-row">
+          
+            <th class="text-left px-4 py-2">Date</th>
+          
+            <th class="text-left px-4 py-2">Description</th>
+          
+            <th class="text-left px-4 py-2">Course Materials</th>
+          
+            <th class="text-left px-4 py-2">Events</th>
+          
+            <th class="text-left px-4 py-2">Deadlines</th>
+          
+        </tr>
+      </thead>
+      <tbody class="flex-1 md:flex-none">
+          
+            <tr class="
+              flex flex-col flex-no-wrap md:table-row mb-8 md:mb-0
+              border-2
+              md:border-0
+              md:border-b-2
+              
+              md:border-b-gray-200"
+            >
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Date: </span>
+                  <span class="prose"><p>Tue Jan 10<br />
+<span class="font-bold text-primary">Week 1</span></p></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Description: </span>
+                  <span class="prose"><p>Word Vectors (<em>by John Hewitt</em>)<br />
+[<a href="https://google.com">slides</a>][<a href="https://google.com">notes</a>]</p></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Course Materials: </span>
+                  <span class="prose"><p>Suggested Readings: <br />
+- <a href="https://google.com">Efficient Estimation of Word Representations in Vector Space</a> (original word2vec paper)</p></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Events: </span>
+                  <span class="prose"><p>Assignment 1 <span class="text-green-800 font-bold">out</span><br />
+[<a href="https://google.com">code</a>]<br />
+[<a href="https://google.com">preview</a>]</p></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Deadlines: </span>
+                  <span class="prose"></span>
+                </td>
+              
+            </tr>
+          
+            <tr class="
+              flex flex-col flex-no-wrap md:table-row mb-8 md:mb-0
+              border-2
+              md:border-0
+              md:border-b-2
+              
+              bg-amber-100
+              
+              md:border-b-gray-200"
+            >
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Date: </span>
+                  <span class="prose"><p>Tue Jan 10</p></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Description: </span>
+                  <span class="prose"><p>Word Vectors (by John Hewitt)<br />
+[<a href="https://google.com">slides</a>][<a href="https://google.com">notes</a>]</p></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Course Materials: </span>
+                  <span class="prose"><p>Suggested Readings: <br />
+- <a href="https://google.com">Efficient Estimation of Word Representations in Vector Space</a> (original word2vec paper)</p></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Events: </span>
+                  <span class="prose"></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Deadlines: </span>
+                  <span class="prose"></span>
+                </td>
+              
+            </tr>
+          
+            <tr class="
+              flex flex-col flex-no-wrap md:table-row mb-8 md:mb-0
+              border-2
+              md:border-0
+              md:border-b-2
+              
+              md:border-b-gray-200"
+            >
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Date: </span>
+                  <span class="prose"><p>Tue Jan 10</p></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Description: </span>
+                  <span class="prose"><p>Word Vectors (by John Hewitt)<br />
+[<a href="https://google.com">slides</a>][<a href="https://google.com">notes</a>]</p></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Course Materials: </span>
+                  <span class="prose"><p>Suggested Readings: <br />
+- <a href="https://google.com">Efficient Estimation of Word Representations in Vector Space</a> (original word2vec paper)</p></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Events: </span>
+                  <span class="prose"></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Deadlines: </span>
+                  <span class="prose"></span>
+                </td>
+              
+            </tr>
+          
+            <tr class="
+              flex flex-col flex-no-wrap md:table-row mb-8 md:mb-0
+              border-2
+              md:border-0
+              md:border-b-2
+              
+              md:border-b-gray-200"
+            >
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Date: </span>
+                  <span class="prose"><p>Tue Jan 10</p></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Description: </span>
+                  <span class="prose"><p>Word Vectors (by John Hewitt)<br />
+[<a href="https://google.com">slides</a>][<a href="https://google.com">notes</a>]</p></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Course Materials: </span>
+                  <span class="prose"><p>Suggested Readings: <br />
+- <a href="https://google.com">Efficient Estimation of Word Representations in Vector Space</a> (original word2vec paper)</p></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Events: </span>
+                  <span class="prose"></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Deadlines: </span>
+                  <span class="prose"></span>
+                </td>
+              
+            </tr>
+          
+            <tr class="
+              flex flex-col flex-no-wrap md:table-row mb-8 md:mb-0
+              border-2
+              md:border-0
+              
+              
+              md:border-b-gray-200"
+            >
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Date: </span>
+                  <span class="prose"><p>Tue Jan 10</p></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Description: </span>
+                  <span class="prose"><p>Word Vectors (by John Hewitt)<br />
+[<a href="https://google.com">slides</a>][<a href="https://google.com">notes</a>]</p></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Course Materials: </span>
+                  <span class="prose"><p>Suggested Readings: <br />
+- <a href="https://google.com">Efficient Estimation of Word Representations in Vector Space</a> (original word2vec paper)</p></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Events: </span>
+                  <span class="prose"></span>
+                </td>
+              
+                <td class="px-4 py-2 border-b-2 md:border-0">
+                  <span class="md:hidden">Deadlines: </span>
+                  <span class="prose"></span>
+                </td>
+              
+            </tr>
+          
+      </tbody>
+    </table>
+</div>
+<style>
+  #schedule {
+    margin-top: -5rem;
+    padding-top: 5rem;
+  }
+</style>
+
   
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  <br>
-  
-  salam
+
 
     </div>
 
