@@ -27,3 +27,8 @@
     height: 1.25rem;
     bottom: -0.3125rem;
 }
+
+.scrollable-section {
+    margin-top: -5rem;
+    padding-top: 5rem;
+}
